@@ -1,0 +1,3025 @@
+{
+  "generated_at": "2026-03-27T08:17:53.710318+00:00",
+  "scoring_method": "llm",
+  "engineers": [
+    {
+      "username": "haacked",
+      "avatar_url": "https://github.com/haacked.png",
+      "score": 95.4,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 25.5,
+        "review_score": 34,
+        "issue_score": 20,
+        "pr_count": 7,
+        "review_count": 17,
+        "issue_count": 20,
+        "avg_complexity": 0.73
+      },
+      "why": "Reviewed 17 PRs across the team, more than 2x their own PR output, primarily in feature flags and infrastructure",
+      "top_prs": [
+        {
+          "title": "feat(flags): preload referenced cohorts in flags hypercache",
+          "complexity": 1.3,
+          "number": 52023
+        },
+        {
+          "title": "chore(flags): add management command to invalidate team flags auth cache",
+          "complexity": 0.9,
+          "number": 52020
+        },
+        {
+          "title": "fix(cohorts): add update_fields guard to all cohort post_save signal handlers",
+          "complexity": 0.8,
+          "number": 52028
+        },
+        {
+          "title": "chore: remove --invalidate-first from hypercache warm commands",
+          "complexity": 0.7,
+          "number": 52305
+        },
+        {
+          "title": "feat(flags): verify evaluation_metadata presence in flags cache",
+          "complexity": 0.6,
+          "number": 52183
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "username": "rafaeelaudibert",
+      "avatar_url": "https://github.com/rafaeelaudibert.png",
+      "score": 90.6,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 3.5,
+        "review_score": 72,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 36,
+        "issue_count": 0,
+        "avg_complexity": 0.35
+      },
+      "why": "Reviewed 36 PRs across the team, more than 2x their own PR output",
+      "top_prs": [
+        {
+          "title": "fix(actions): show proper error when saving action with empty name",
+          "complexity": 0.5,
+          "number": 52166
+        },
+        {
+          "title": "fix: Fix litellm lock",
+          "complexity": 0.2,
+          "number": 52093
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "username": "Gilbert09",
+      "avatar_url": "https://github.com/Gilbert09.png",
+      "score": 87.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 45.0,
+        "review_score": 42,
+        "issue_score": 0,
+        "pr_count": 14,
+        "review_count": 21,
+        "issue_count": 0,
+        "avg_complexity": 0.64
+      },
+      "why": "Shipped 14 PRs with avg complexity 0.6, focused on infrastructure and ingestion; with 21 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(data-warehoise): Use a new webhook sync type",
+          "complexity": 1.2,
+          "number": 52289
+        },
+        {
+          "title": "feat(data-warehouse): webhook tab in sources",
+          "complexity": 1.2,
+          "number": 52066
+        },
+        {
+          "title": "feat(data-warehouse): Allow deletion of webhooks",
+          "complexity": 0.9,
+          "number": 52168
+        },
+        {
+          "title": "chore(data-warehouse): Convert hard coded list of source keys",
+          "complexity": 0.8,
+          "number": 52153
+        },
+        {
+          "title": "fix(data-warehouse): Keep the job inputs access token fresh",
+          "complexity": 0.7,
+          "number": 52463
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "username": "dmarticus",
+      "avatar_url": "https://github.com/dmarticus.png",
+      "score": 78.5,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 46.5,
+        "review_score": 14,
+        "issue_score": 18,
+        "pr_count": 11,
+        "review_count": 7,
+        "issue_count": 18,
+        "avg_complexity": 0.85
+      },
+      "why": "Resolved 18 issues, driving bug-fix and feature-delivery throughput in feature flags and data model; with 7 code reviews",
+      "top_prs": [
+        {
+          "title": "chore: remove deprecated FeatureFlagEvaluationTag and TeamDefaultEvaluationTag models",
+          "complexity": 1.3,
+          "number": 52186
+        },
+        {
+          "title": "feat(flags): implement per-condition aggregation in Rust evaluation service",
+          "complexity": 1.2,
+          "number": 52325
+        },
+        {
+          "title": "fix(cohorts):  self-heal stuck static cohorts and fix OOM in CH→PG sync",
+          "complexity": 0.9,
+          "number": 52025
+        },
+        {
+          "title": "feat(feature-flags): gate realtime cohort membership on backfill timestamp",
+          "complexity": 0.9,
+          "number": 52180
+        },
+        {
+          "title": "feat(feature-flags): add per-condition-set aggregation validation logic",
+          "complexity": 0.9,
+          "number": 51399
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "username": "gantoine",
+      "avatar_url": "https://github.com/gantoine.png",
+      "score": 73.8,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 17.5,
+        "review_score": 44,
+        "issue_score": 0,
+        "pr_count": 5,
+        "review_count": 22,
+        "issue_count": 0,
+        "avg_complexity": 0.7
+      },
+      "why": "Reviewed 22 PRs across the team, more than 2x their own PR output, primarily in infrastructure and frontend",
+      "top_prs": [
+        {
+          "title": "feat(devex): Lazy-load load large frontend libraries (elkjs, zxcvbn, and hls.js)",
+          "complexity": 1.2,
+          "number": 51523
+        },
+        {
+          "title": "feat(phrocs): Add sort shortcut + scroll arrows",
+          "complexity": 0.9,
+          "number": 52149
+        },
+        {
+          "title": "fix(phrocs): Use default mprocs.yml at project root",
+          "complexity": 0.6,
+          "number": 52357
+        },
+        {
+          "title": "feat(ci): Add CI check for local flox environment",
+          "complexity": 0.5,
+          "number": 52252
+        },
+        {
+          "title": "chore(devex): Default to phrocs for hogli start",
+          "complexity": 0.3,
+          "number": 52009
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "username": "arthurdedeus",
+      "avatar_url": "https://github.com/arthurdedeus.png",
+      "score": 64.8,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 7.0,
+        "review_score": 20,
+        "issue_score": 27,
+        "pr_count": 2,
+        "review_count": 10,
+        "issue_count": 27,
+        "avg_complexity": 0.7
+      },
+      "why": "Reviewed 10 PRs across the team, more than 2x their own PR output, primarily in experiments",
+      "top_prs": [
+        {
+          "title": "perf: Related groups query optimization",
+          "complexity": 1.1,
+          "number": 51977
+        },
+        {
+          "title": "chore: Cleanup related persons experiment",
+          "complexity": 0.3,
+          "number": 52163
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "username": "robbie-c",
+      "avatar_url": "https://github.com/robbie-c.png",
+      "score": 64.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 56.5,
+        "review_score": 4,
+        "issue_score": 4,
+        "pr_count": 22,
+        "review_count": 2,
+        "issue_count": 4,
+        "avg_complexity": 0.51
+      },
+      "why": "Shipped 22 PRs with avg complexity 0.5, focused on ingestion and dashboards; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(hogql): fix backslash escape parsing, add property-based tests",
+          "complexity": 0.9,
+          "number": 52192
+        },
+        {
+          "title": "feat(analytics-platform): create internal/test users cohort for new teams",
+          "complexity": 0.8,
+          "number": 51852
+        },
+        {
+          "title": "feat(cohorts): add unique constraint on cohort kind per team",
+          "complexity": 0.7,
+          "number": 52421
+        },
+        {
+          "title": "feat: add query tagging to postgres-to-clickhouse ETL dagster pipeline",
+          "complexity": 0.7,
+          "number": 52396
+        },
+        {
+          "title": "feat(analytics-platform): add dagster job to backfill internal/test users cohort",
+          "complexity": 0.7,
+          "number": 52140
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "username": "jose-sequeira",
+      "avatar_url": "https://github.com/jose-sequeira.png",
+      "score": 62.4,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 14.0,
+        "review_score": 38,
+        "issue_score": 0,
+        "pr_count": 3,
+        "review_count": 19,
+        "issue_count": 0,
+        "avg_complexity": 0.93
+      },
+      "why": "Reviewed 19 PRs across the team, more than 2x their own PR output, primarily in ingestion and onboarding",
+      "top_prs": [
+        {
+          "title": "feat: Split ingestion into dedicated IngestionGeneralServer",
+          "complexity": 1.4,
+          "number": 51463
+        },
+        {
+          "title": "fix: Wire up leadership into personhog-router",
+          "complexity": 0.8,
+          "number": 52063
+        },
+        {
+          "title": "fix: kafka deduplicator cf setup",
+          "complexity": 0.6,
+          "number": 52386
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "username": "MattPua",
+      "avatar_url": "https://github.com/MattPua.png",
+      "score": 60.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 48.0,
+        "review_score": 12,
+        "issue_score": 0,
+        "pr_count": 14,
+        "review_count": 6,
+        "issue_count": 0,
+        "avg_complexity": 0.69
+      },
+      "why": "Shipped 14 PRs with avg complexity 0.7, focused on dashboards and frontend; with 6 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(dashboard): allow copying widgets from one dashboard to another",
+          "complexity": 1.2,
+          "number": 52008
+        },
+        {
+          "title": "feat(ui): introduce new inline markdown editor and consolidate markdown code",
+          "complexity": 1.2,
+          "number": 51681
+        },
+        {
+          "title": "refactor(dashboard): Move text card modal from lemon modal to new Dialog Primitive",
+          "complexity": 0.8,
+          "number": 52262
+        },
+        {
+          "title": "feat(dashboard-templates): add new is_featured column for dashboard templates (Part 1)",
+          "complexity": 0.8,
+          "number": 52152
+        },
+        {
+          "title": "feat(insight): Allow toggling other labels for trends insights with context menu",
+          "complexity": 0.8,
+          "number": 51982
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "username": "MattBro",
+      "avatar_url": "https://github.com/MattBro.png",
+      "score": 57.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 41.0,
+        "review_score": 16,
+        "issue_score": 0,
+        "pr_count": 15,
+        "review_count": 8,
+        "issue_count": 0,
+        "avg_complexity": 0.55
+      },
+      "why": "Shipped 15 PRs with avg complexity 0.6, focused on auth and billing; with 8 code reviews",
+      "top_prs": [
+        {
+          "title": "fix: add cross-region webhook proxy and lazy cleanup for orphaned Vercel integrations",
+          "complexity": 1.1,
+          "number": 52418
+        },
+        {
+          "title": "fix: add cross-region proxy support to VercelProxyViewSet",
+          "complexity": 0.8,
+          "number": 52130
+        },
+        {
+          "title": "fix: handle cross-region Vercel SSO when resource_id is missing",
+          "complexity": 0.7,
+          "number": 52162
+        },
+        {
+          "title": "fix: make Vercel connect flow work cross-region",
+          "complexity": 0.7,
+          "number": 52114
+        },
+        {
+          "title": "feat: add deep_link_purposes to Stripe app manifest",
+          "complexity": 0.7,
+          "number": 51607
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "username": "pauldambra",
+      "avatar_url": "https://github.com/pauldambra.png",
+      "score": 50.4,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 17.0,
+        "review_score": 22,
+        "issue_score": 3,
+        "pr_count": 4,
+        "review_count": 11,
+        "issue_count": 3,
+        "avg_complexity": 0.85
+      },
+      "why": "Reviewed 11 PRs across the team, more than 2x their own PR output, primarily in dashboards and backend",
+      "top_prs": [
+        {
+          "title": "feat(paths): better defaults and hover highlight for paths insight",
+          "complexity": 1.0,
+          "number": 51887
+        },
+        {
+          "title": "chore: add agent skill for modifying TaxonomicFilter",
+          "complexity": 1.0,
+          "number": 52087
+        },
+        {
+          "title": "fix: bundle Monaco Editor workers and configure worker URLs",
+          "complexity": 0.7,
+          "number": 51935
+        },
+        {
+          "title": "fix(taxonomic-filter): disable auto-tab when SuggestedFilters group is present",
+          "complexity": 0.7,
+          "number": 52122
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "username": "vdekrijger",
+      "avatar_url": "https://github.com/vdekrijger.png",
+      "score": 48.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 36.5,
+        "review_score": 12,
+        "issue_score": 0,
+        "pr_count": 9,
+        "review_count": 6,
+        "issue_count": 0,
+        "avg_complexity": 0.81
+      },
+      "why": "Shipped 9 PRs with avg complexity 0.8, focused on dashboards and billing; with 6 code reviews",
+      "top_prs": [
+        {
+          "title": "feat: wire subscription workflows to new split-activity flow and remove tenacity retry",
+          "complexity": 1.5,
+          "number": 51649
+        },
+        {
+          "title": "feat: add new subscription delivery workflow with per-asset export    fan-out",
+          "complexity": 1.4,
+          "number": 51648
+        },
+        {
+          "title": "feat: Add new SLO dashboard based on our SLo package",
+          "complexity": 1.2,
+          "number": 52244
+        },
+        {
+          "title": "feat: instrument alert checks with SLO events",
+          "complexity": 0.9,
+          "number": 52294
+        },
+        {
+          "title": "feat: Improve success / failure counting in the SLO dashboard",
+          "complexity": 0.5,
+          "number": 52271
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "username": "rnegron",
+      "avatar_url": "https://github.com/rnegron.png",
+      "score": 46.2,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 10.5,
+        "review_score": 28,
+        "issue_score": 0,
+        "pr_count": 6,
+        "review_count": 14,
+        "issue_count": 0,
+        "avg_complexity": 0.35
+      },
+      "why": "Reviewed 14 PRs across the team, more than 2x their own PR output, primarily in infrastructure and frontend",
+      "top_prs": [
+        {
+          "title": "chore(ci): auto-resolve outdated bot review comments",
+          "complexity": 0.5,
+          "number": 51954
+        },
+        {
+          "title": "fix(ci): use app token for outdated bot threads",
+          "complexity": 0.4,
+          "number": 52456
+        },
+        {
+          "title": "fix(ci): deduplicate hogql-parser version reminder comments",
+          "complexity": 0.4,
+          "number": 51792
+        },
+        {
+          "title": "chore: discourage claude hooks, prefer alternatives",
+          "complexity": 0.3,
+          "number": 52411
+        },
+        {
+          "title": "fix(storybook): disable source maps in CI to fix Cloudflare Pages OOM",
+          "complexity": 0.3,
+          "number": 52172
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "username": "andyzzhao",
+      "avatar_url": "https://github.com/andyzzhao.png",
+      "score": 44.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 18.5,
+        "review_score": 24,
+        "issue_score": 2,
+        "pr_count": 8,
+        "review_count": 12,
+        "issue_count": 2,
+        "avg_complexity": 0.46
+      },
+      "why": "Shipped 8 PRs with avg complexity 0.5, focused on dashboards and API; with 12 code reviews",
+      "top_prs": [
+        {
+          "title": "feat: add query profiling with flamegraph to ClickHouse debug panel",
+          "complexity": 1.0,
+          "number": 52210
+        },
+        {
+          "title": "fix(insights): route legacy trend/funnel endpoints through unified QueryRunner cache",
+          "complexity": 0.9,
+          "number": 52369
+        },
+        {
+          "title": "fix(insights): skip redundant /insight_variables API calls on dashboard scroll",
+          "complexity": 0.5,
+          "number": 52135
+        },
+        {
+          "title": "fix: query trace_log across all cluster nodes for profiling results",
+          "complexity": 0.5,
+          "number": 52286
+        },
+        {
+          "title": "chore: tag cache_key in query log_comment",
+          "complexity": 0.3,
+          "number": 52349
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "username": "MarconLP",
+      "avatar_url": "https://github.com/MarconLP.png",
+      "score": 43.8,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 10.5,
+        "review_score": 20,
+        "issue_score": 6,
+        "pr_count": 2,
+        "review_count": 10,
+        "issue_count": 6,
+        "avg_complexity": 1.05
+      },
+      "why": "Reviewed 10 PRs across the team, more than 2x their own PR output, primarily in data model",
+      "top_prs": [
+        {
+          "title": "feat(warehouse): add Convex as a data warehouse source",
+          "complexity": 1.3,
+          "number": 47293
+        },
+        {
+          "title": "feat: add label to externaldataschema",
+          "complexity": 0.8,
+          "number": 50610
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "username": "thmsobrmlr",
+      "avatar_url": "https://github.com/thmsobrmlr.png",
+      "score": 43.2,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 12.0,
+        "review_score": 22,
+        "issue_score": 2,
+        "pr_count": 4,
+        "review_count": 11,
+        "issue_count": 2,
+        "avg_complexity": 0.6
+      },
+      "why": "Reviewed 11 PRs across the team, more than 2x their own PR output, primarily in dashboards",
+      "top_prs": [
+        {
+          "title": "feat(retention): add support for extended person properties",
+          "complexity": 0.8,
+          "number": 52089
+        },
+        {
+          "title": "feat(trends): add extended person properties support to box plot insights",
+          "complexity": 0.7,
+          "number": 52096
+        },
+        {
+          "title": "fix(insights): fix global filters reappearing in insights",
+          "complexity": 0.5,
+          "number": 52068
+        },
+        {
+          "title": "fix(trends): do not prefix empty formula nodes",
+          "complexity": 0.4,
+          "number": 52228
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "username": "danielcarletti",
+      "avatar_url": "https://github.com/danielcarletti.png",
+      "score": 39.6,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 5.0,
+        "review_score": 28,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 14,
+        "issue_count": 0,
+        "avg_complexity": 0.5
+      },
+      "why": "Reviewed 14 PRs across the team, more than 2x their own PR output, primarily in data model",
+      "top_prs": [
+        {
+          "title": "feat(sources): add schema name filter to sources schemas tab",
+          "complexity": 0.5,
+          "number": 52467
+        },
+        {
+          "title": "fix(data-warehouse): use cursor-only follow-up pages for typeform responses",
+          "complexity": 0.5,
+          "number": 52412
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "username": "Piccirello",
+      "avatar_url": "https://github.com/Piccirello.png",
+      "score": 39.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 17.5,
+        "review_score": 22,
+        "issue_score": 0,
+        "pr_count": 6,
+        "review_count": 11,
+        "issue_count": 0,
+        "avg_complexity": 0.58
+      },
+      "why": "Shipped 6 PRs with avg complexity 0.6, focused on billing and dashboards; with 11 code reviews",
+      "top_prs": [
+        {
+          "title": "fix: improve validation in dashboard tile updates",
+          "complexity": 0.8,
+          "number": 52220
+        },
+        {
+          "title": "chore: resource transfer scoping and validation messages",
+          "complexity": 0.7,
+          "number": 52216
+        },
+        {
+          "title": "fix: validate filter keys",
+          "complexity": 0.6,
+          "number": 52380
+        },
+        {
+          "title": "chore: improve order validation in marketing analytics queries",
+          "complexity": 0.5,
+          "number": 52379
+        },
+        {
+          "title": "fix: improve early access features site app rendering",
+          "complexity": 0.5,
+          "number": 52215
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "username": "georgemunyoro",
+      "avatar_url": "https://github.com/georgemunyoro.png",
+      "score": 39.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 21.0,
+        "review_score": 18,
+        "issue_score": 0,
+        "pr_count": 6,
+        "review_count": 9,
+        "issue_count": 0,
+        "avg_complexity": 0.7
+      },
+      "why": "Shipped 6 PRs with avg complexity 0.7, focused on HogQL; with 9 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(hogql): remaining duck/postgres syntax 2/2",
+          "complexity": 1.8,
+          "number": 51955
+        },
+        {
+          "title": "fix(hogql): null comparisons",
+          "complexity": 0.7,
+          "number": 52224
+        },
+        {
+          "title": "fix(hogql): postgres functions",
+          "complexity": 0.6,
+          "number": 52181
+        },
+        {
+          "title": "fix(hogql): handle column alias shadowing in property access",
+          "complexity": 0.6,
+          "number": 52118
+        },
+        {
+          "title": "chore: upgrade hogql parser",
+          "complexity": 0.3,
+          "number": 52406
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "username": "sampennington",
+      "avatar_url": "https://github.com/sampennington.png",
+      "score": 38.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 20.5,
+        "review_score": 18,
+        "issue_score": 0,
+        "pr_count": 6,
+        "review_count": 9,
+        "issue_count": 0,
+        "avg_complexity": 0.68
+      },
+      "why": "Shipped 6 PRs with avg complexity 0.7, focused on dashboards and HogQL; with 9 code reviews",
+      "top_prs": [
+        {
+          "title": "refactor(ActionFilterRow): extract types, utils, and MathSelector",
+          "complexity": 1.2,
+          "number": 52165
+        },
+        {
+          "title": "refactor(ActionFilterRow): extract PropertyMathSelector and HogQLMathEditor",
+          "complexity": 0.9,
+          "number": 52214
+        },
+        {
+          "title": "refactor(ActionFilterRow): extract ActionFilterRowMenu",
+          "complexity": 0.8,
+          "number": 52213
+        },
+        {
+          "title": "chore(filters): Add component tests to ActionFilterRow",
+          "complexity": 0.6,
+          "number": 52131
+        },
+        {
+          "title": "chore(insights): add missing tests for insightLogic ",
+          "complexity": 0.5,
+          "number": 52167
+        }
+      ],
+      "rank": 20
+    },
+    {
+      "username": "rossgray",
+      "avatar_url": "https://github.com/rossgray.png",
+      "score": 37.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 13.5,
+        "review_score": 22,
+        "issue_score": 2,
+        "pr_count": 6,
+        "review_count": 11,
+        "issue_count": 2,
+        "avg_complexity": 0.45
+      },
+      "why": "Shipped 6 PRs with avg complexity 0.5, focused on pipeline and feature flags; with 11 code reviews",
+      "top_prs": [
+        {
+          "title": "refactor(batch-exports): decouple kea logics by extracting batchExportConfigLogic",
+          "complexity": 1.1,
+          "number": 52003
+        },
+        {
+          "title": "chore: remove unused sqlalchemy packages and fix bigquery source tests",
+          "complexity": 0.5,
+          "number": 52248
+        },
+        {
+          "title": "fix: revert previous changes to backfill logics",
+          "complexity": 0.4,
+          "number": 51704
+        },
+        {
+          "title": "chore(batch-exports): update databricks dependencies",
+          "complexity": 0.3,
+          "number": 52072
+        },
+        {
+          "title": "chore(batch-exports): update snowflake-connector-python 4.1.1 → 4.3.0",
+          "complexity": 0.2,
+          "number": 52231
+        }
+      ],
+      "rank": 21
+    },
+    {
+      "username": "gustavohstrassburger",
+      "avatar_url": "https://github.com/gustavohstrassburger.png",
+      "score": 36.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 18.0,
+        "review_score": 18,
+        "issue_score": 0,
+        "pr_count": 5,
+        "review_count": 9,
+        "issue_count": 0,
+        "avg_complexity": 0.72
+      },
+      "why": "Shipped 5 PRs with avg complexity 0.7, focused on feature flags and experiments; with 9 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(feature-flags): add drag and drop for release conditions",
+          "complexity": 1.1,
+          "number": 51709
+        },
+        {
+          "title": "feat(feature-flags): add drag and drop reordering for V2 feature flag variants",
+          "complexity": 1.0,
+          "number": 52173
+        },
+        {
+          "title": "feat: improve feature flag multi-word search functionality",
+          "complexity": 0.8,
+          "number": 51805
+        },
+        {
+          "title": "fix(messaging): remove kafka key from precalculated person properties backfill",
+          "complexity": 0.5,
+          "number": 51809
+        },
+        {
+          "title": "chore: Revert \"fix: vary message keys to improve partition distribution\"",
+          "complexity": 0.2,
+          "number": 51762
+        }
+      ],
+      "rank": 22
+    },
+    {
+      "username": "tomasfarias",
+      "avatar_url": "https://github.com/tomasfarias.png",
+      "score": 35.4,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 13.5,
+        "review_score": 16,
+        "issue_score": 0,
+        "pr_count": 3,
+        "review_count": 8,
+        "issue_count": 0,
+        "avg_complexity": 0.9
+      },
+      "why": "Reviewed 8 PRs across the team, more than 2x their own PR output, primarily in pipeline and auth",
+      "top_prs": [
+        {
+          "title": "feat: Bigquery integration with impersonation support",
+          "complexity": 1.5,
+          "number": 50850
+        },
+        {
+          "title": "fix(bigquery): Only check for duplicates when impersonating",
+          "complexity": 0.7,
+          "number": 52097
+        },
+        {
+          "title": "fix: Assorted fixes related to BigQuery batch exports",
+          "complexity": 0.5,
+          "number": 52283
+        }
+      ],
+      "rank": 23
+    },
+    {
+      "username": "veryayskiy",
+      "avatar_url": "https://github.com/veryayskiy.png",
+      "score": 33.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 27.5,
+        "review_score": 6,
+        "issue_score": 0,
+        "pr_count": 7,
+        "review_count": 3,
+        "issue_count": 0,
+        "avg_complexity": 0.79
+      },
+      "why": "Shipped 7 PRs with avg complexity 0.8, focused on API; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "feat: email support outbound",
+          "complexity": 1.3,
+          "number": 51577
+        },
+        {
+          "title": "feat: proxy email between regions",
+          "complexity": 1.1,
+          "number": 52150
+        },
+        {
+          "title": "feat: restrict slack / email settings to organization admin",
+          "complexity": 0.9,
+          "number": 52246
+        },
+        {
+          "title": "feat: support slack role",
+          "complexity": 0.9,
+          "number": 52132
+        },
+        {
+          "title": "chore: add constraints to slack workspace uniqness",
+          "complexity": 0.5,
+          "number": 52260
+        }
+      ],
+      "rank": 24
+    },
+    {
+      "username": "webjunkie",
+      "avatar_url": "https://github.com/webjunkie.png",
+      "score": 33.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 20.5,
+        "review_score": 12,
+        "issue_score": 1,
+        "pr_count": 7,
+        "review_count": 6,
+        "issue_count": 1,
+        "avg_complexity": 0.59
+      },
+      "why": "Shipped 7 PRs with avg complexity 0.6, focused on infrastructure and data model; with 6 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(visual-review): wire VR CLI into storybook and playwright CI",
+          "complexity": 1.5,
+          "number": 52036
+        },
+        {
+          "title": "perf(visual-review): replace pngjs with sharp for 6x faster hashing",
+          "complexity": 1.2,
+          "number": 52359
+        },
+        {
+          "title": "fix(visual-review): post green commit status during migration",
+          "complexity": 0.4,
+          "number": 52334
+        },
+        {
+          "title": "revert(devcontainer): pin uv image to 0.10.12",
+          "complexity": 0.4,
+          "number": 52077
+        },
+        {
+          "title": "docs: note that product databases need infra provisioning",
+          "complexity": 0.2,
+          "number": 52381
+        }
+      ],
+      "rank": 25
+    },
+    {
+      "username": "cat-ph",
+      "avatar_url": "https://github.com/cat-ph.png",
+      "score": 31.8,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 6.5,
+        "review_score": 20,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 10,
+        "issue_count": 0,
+        "avg_complexity": 0.65
+      },
+      "why": "Reviewed 10 PRs across the team, more than 2x their own PR output",
+      "top_prs": [
+        {
+          "title": "feat(cymbal): add php frame support",
+          "complexity": 0.9,
+          "number": 52239
+        },
+        {
+          "title": "fix(error-tracking): scope frame expansion per exception",
+          "complexity": 0.4,
+          "number": 52368
+        }
+      ],
+      "rank": 26
+    },
+    {
+      "username": "matheus-vb",
+      "avatar_url": "https://github.com/matheus-vb.png",
+      "score": 30.5,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 18.5,
+        "review_score": 6,
+        "issue_score": 6,
+        "pr_count": 5,
+        "review_count": 3,
+        "issue_count": 6,
+        "avg_complexity": 0.74
+      },
+      "why": "Resolved 6 issues, driving bug-fix and feature-delivery throughput in feature flags and frontend; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(flags): parallelize property fetch",
+          "complexity": 1.0,
+          "number": 51795
+        },
+        {
+          "title": "feat(flags): optimize regex matching by pre-compiling builder",
+          "complexity": 1.0,
+          "number": 52184
+        },
+        {
+          "title": "feat: (flags): optimize is_condition_match with zero-copy filtering",
+          "complexity": 0.8,
+          "number": 52022
+        },
+        {
+          "title": "fix(flags): fix cohort version update",
+          "complexity": 0.5,
+          "number": 51994
+        },
+        {
+          "title": "fix(flags): add missing field in test",
+          "complexity": 0.4,
+          "number": 52298
+        }
+      ],
+      "rank": 27
+    },
+    {
+      "username": "adamleithp",
+      "avatar_url": "https://github.com/adamleithp.png",
+      "score": 28.2,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 5.5,
+        "review_score": 18,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 9,
+        "issue_count": 0,
+        "avg_complexity": 0.55
+      },
+      "why": "Reviewed 9 PRs across the team, more than 2x their own PR output, primarily in billing",
+      "top_prs": [
+        {
+          "title": "fix: ai first home page scrolling with banners (project notice, billing)",
+          "complexity": 0.6,
+          "number": 52094
+        },
+        {
+          "title": "fix: vercel connect and link error showing layout",
+          "complexity": 0.5,
+          "number": 52110
+        }
+      ],
+      "rank": 28
+    },
+    {
+      "username": "ReeceJones",
+      "avatar_url": "https://github.com/ReeceJones.png",
+      "score": 27.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 19.5,
+        "review_score": 8,
+        "issue_score": 0,
+        "pr_count": 5,
+        "review_count": 4,
+        "issue_count": 0,
+        "avg_complexity": 0.78
+      },
+      "why": "Shipped 5 PRs with avg complexity 0.8, focused on experiments and surveys; with 4 code reviews",
+      "top_prs": [
+        {
+          "title": "feat: copy experiments, early access features across projects",
+          "complexity": 1.1,
+          "number": 52010
+        },
+        {
+          "title": "feat: add proj->proj duplication for surveys",
+          "complexity": 1.0,
+          "number": 52109
+        },
+        {
+          "title": "fix: patch access control escalation",
+          "complexity": 0.7,
+          "number": 52264
+        },
+        {
+          "title": "fix: perform correct access check for org invites",
+          "complexity": 0.6,
+          "number": 52322
+        },
+        {
+          "title": "fix: incorrect entries in access control table",
+          "complexity": 0.5,
+          "number": 52088
+        }
+      ],
+      "rank": 29
+    },
+    {
+      "username": "dmarchuk",
+      "avatar_url": "https://github.com/dmarchuk.png",
+      "score": 27.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 19.0,
+        "review_score": 8,
+        "issue_score": 0,
+        "pr_count": 7,
+        "review_count": 4,
+        "issue_count": 0,
+        "avg_complexity": 0.54
+      },
+      "why": "Shipped 7 PRs with avg complexity 0.5, focused on ingestion and data model; with 4 code reviews",
+      "top_prs": [
+        {
+          "title": "chore(workflows): Use single table with status filter instead of three separate tables",
+          "complexity": 0.8,
+          "number": 52006
+        },
+        {
+          "title": "fix(workflows): Attribute email open and click metrics to workflow email actions",
+          "complexity": 0.6,
+          "number": 52154
+        },
+        {
+          "title": "fix(cdp): Fix grouped logs pagination for non-UTC project timezones",
+          "complexity": 0.5,
+          "number": 52364
+        },
+        {
+          "title": "fix(workflows): Remove SES Send/Delivery webhook metrics to prevent triple counting email_sent",
+          "complexity": 0.5,
+          "number": 52256
+        },
+        {
+          "title": "fix(workflows): Remove direct pixel/redirect metric recording to prevent double counting with SES webhooks",
+          "complexity": 0.5,
+          "number": 52241
+        }
+      ],
+      "rank": 30
+    },
+    {
+      "username": "frankh",
+      "avatar_url": "https://github.com/frankh.png",
+      "score": 26.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 19.0,
+        "review_score": 6,
+        "issue_score": 1,
+        "pr_count": 5,
+        "review_count": 3,
+        "issue_count": 1,
+        "avg_complexity": 0.76
+      },
+      "why": "Shipped 5 PRs with avg complexity 0.8, focused on data model and HogQL; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(logs): switch logs to use distributed tables",
+          "complexity": 1.2,
+          "number": 52400
+        },
+        {
+          "title": "feat(logs): add distributed tables for all logs tables",
+          "complexity": 1.2,
+          "number": 52081
+        },
+        {
+          "title": "fix(hogql): fix nullable checks, and add check for assumenotnull",
+          "complexity": 0.5,
+          "number": 52064
+        },
+        {
+          "title": "fix(tracing): fix nodejs trace precision being too low",
+          "complexity": 0.5,
+          "number": 52146
+        },
+        {
+          "title": "fix(logs): don't try to fetch values for message filters",
+          "complexity": 0.4,
+          "number": 52387
+        }
+      ],
+      "rank": 31
+    },
+    {
+      "username": "yasen-posthog",
+      "avatar_url": "https://github.com/yasen-posthog.png",
+      "score": 26.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 16.0,
+        "review_score": 10,
+        "issue_score": 0,
+        "pr_count": 4,
+        "review_count": 5,
+        "issue_count": 0,
+        "avg_complexity": 0.8
+      },
+      "why": "Shipped 4 PRs with avg complexity 0.8, focused on feature flags and API; with 5 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(notifications): notification popover UI with real-time SSE and toast alerts",
+          "complexity": 1.4,
+          "number": 49313
+        },
+        {
+          "title": "feat(notifications): send in-app notification on discussion mention",
+          "complexity": 0.7,
+          "number": 52430
+        },
+        {
+          "title": "chore(notifications): remove debug notifications page and send_test endpoint",
+          "complexity": 0.6,
+          "number": 52278
+        },
+        {
+          "title": "fix(notifications): add NotificationsMenu to NavBarFooter and gate on feature flag",
+          "complexity": 0.5,
+          "number": 52382
+        }
+      ],
+      "rank": 32
+    },
+    {
+      "username": "havenbarnes",
+      "avatar_url": "https://github.com/havenbarnes.png",
+      "score": 25.5,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 9.5,
+        "review_score": 8,
+        "issue_score": 8,
+        "pr_count": 3,
+        "review_count": 4,
+        "issue_count": 8,
+        "avg_complexity": 0.63
+      },
+      "why": "Resolved 8 issues, driving bug-fix and feature-delivery throughput in pipeline and ingestion; with 4 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(integrations): store current oauth token in sensitive config for gcp and vercel",
+          "complexity": 0.9,
+          "number": 52296
+        },
+        {
+          "title": "feat(workflows): emit email_delivered metric from SES Delivery events",
+          "complexity": 0.6,
+          "number": 52321
+        },
+        {
+          "title": "fix(workflows): fix bad unlayer html exports breaking custom fonts",
+          "complexity": 0.4,
+          "number": 52445
+        }
+      ],
+      "rank": 33
+    },
+    {
+      "username": "fercgomes",
+      "avatar_url": "https://github.com/fercgomes.png",
+      "score": 25.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 14.0,
+        "review_score": 10,
+        "issue_score": 1,
+        "pr_count": 5,
+        "review_count": 5,
+        "issue_count": 1,
+        "avg_complexity": 0.56
+      },
+      "why": "Shipped 5 PRs with avg complexity 0.6, focused on frontend and onboarding; with 5 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(onboarding): add post-onboarding celebration modal experiment",
+          "complexity": 0.9,
+          "number": 52079
+        },
+        {
+          "title": "fix(toolbar): echo custom headers in CORS preflight for toolbar OAuth endpoints",
+          "complexity": 0.6,
+          "number": 52182
+        },
+        {
+          "title": "fix(toolbar): bypass personal api key settings for oauth",
+          "complexity": 0.6,
+          "number": 52176
+        },
+        {
+          "title": "fix(onboarding): skip post onboading modal snapshot",
+          "complexity": 0.4,
+          "number": 52452
+        },
+        {
+          "title": "chore(onboarding): trigger snapshot generation for post-onboarding modal stories",
+          "complexity": 0.3,
+          "number": 52420
+        }
+      ],
+      "rank": 34
+    },
+    {
+      "username": "hpouillot",
+      "avatar_url": "https://github.com/hpouillot.png",
+      "score": 25.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 11.0,
+        "review_score": 14,
+        "issue_score": 0,
+        "pr_count": 4,
+        "review_count": 7,
+        "issue_count": 0,
+        "avg_complexity": 0.55
+      },
+      "why": "Shipped 4 PRs with avg complexity 0.6, focused on frontend; with 7 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(cymbal): add typed frame resolution metrics",
+          "complexity": 0.8,
+          "number": 52057
+        },
+        {
+          "title": "fix(error-tracking): improve issue list presentation",
+          "complexity": 0.6,
+          "number": 52269
+        },
+        {
+          "title": "fix(cli,cymbal): create per-UUID ZIP for dSYM uploads",
+          "complexity": 0.6,
+          "number": 52067
+        },
+        {
+          "title": "chore(cli): bump version to 0.7.4",
+          "complexity": 0.2,
+          "number": 52229
+        }
+      ],
+      "rank": 35
+    },
+    {
+      "username": "pl",
+      "avatar_url": "https://github.com/pl.png",
+      "score": 24.0,
+      "persona_tag": "The Polymath",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 16.0,
+        "review_score": 6,
+        "issue_score": 2,
+        "pr_count": 3,
+        "review_count": 3,
+        "issue_count": 2,
+        "avg_complexity": 1.07
+      },
+      "why": "Balanced contributor across ingestion, reviews, and issue resolution; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "refactor: move most ingestion warnings to outputs",
+          "complexity": 1.2,
+          "number": 52148
+        },
+        {
+          "title": "feat: use kafka outputs for heatmaps",
+          "complexity": 1.2,
+          "number": 51879
+        },
+        {
+          "title": "feat: add ingestion outputs metrics",
+          "complexity": 0.8,
+          "number": 52174
+        }
+      ],
+      "rank": 36
+    },
+    {
+      "username": "mp-hog",
+      "avatar_url": "https://github.com/mp-hog.png",
+      "score": 23.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 17.5,
+        "review_score": 6,
+        "issue_score": 0,
+        "pr_count": 4,
+        "review_count": 3,
+        "issue_count": 0,
+        "avg_complexity": 0.88
+      },
+      "why": "Shipped 4 PRs with avg complexity 0.9, focused on experiments and API; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "refactor(experiments): Move ending experiments (without shipping) to API",
+          "complexity": 1.0,
+          "number": 52276
+        },
+        {
+          "title": "refactor(experiments): Move resetting experiments to API",
+          "complexity": 0.9,
+          "number": 52125
+        },
+        {
+          "title": "refactor(experiments): Move pausing/resuming experiments to API",
+          "complexity": 0.9,
+          "number": 52051
+        },
+        {
+          "title": "refactor(experiments): Use model methods as source of truth for lifecycle getters",
+          "complexity": 0.7,
+          "number": 52104
+        }
+      ],
+      "rank": 37
+    },
+    {
+      "username": "mariusandra",
+      "avatar_url": "https://github.com/mariusandra.png",
+      "score": 23.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 12.0,
+        "review_score": 10,
+        "issue_score": 1,
+        "pr_count": 3,
+        "review_count": 5,
+        "issue_count": 1,
+        "avg_complexity": 0.8
+      },
+      "why": "Shipped 3 PRs with avg complexity 0.8, focused on HogQL and dashboards; with 5 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(hogql): skip hogql mode",
+          "complexity": 1.3,
+          "number": 52234
+        },
+        {
+          "title": "fix(insights): hide unused variables",
+          "complexity": 0.6,
+          "number": 52054
+        },
+        {
+          "title": "fix(remote-config): update on disable",
+          "complexity": 0.5,
+          "number": 52145
+        }
+      ],
+      "rank": 38
+    },
+    {
+      "username": "ablaszkiewicz",
+      "avatar_url": "https://github.com/ablaszkiewicz.png",
+      "score": 22.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 8.5,
+        "review_score": 14,
+        "issue_score": 0,
+        "pr_count": 4,
+        "review_count": 7,
+        "issue_count": 0,
+        "avg_complexity": 0.43
+      },
+      "why": "Shipped 4 PRs with avg complexity 0.4, focused on data model; with 7 code reviews",
+      "top_prs": [
+        {
+          "title": "fix: lemon table loader layout shift",
+          "complexity": 0.5,
+          "number": 52021
+        },
+        {
+          "title": "fix: github repository selector",
+          "complexity": 0.4,
+          "number": 52403
+        },
+        {
+          "title": "fix: node pre context when read from disk",
+          "complexity": 0.4,
+          "number": 52362
+        },
+        {
+          "title": "fix: properly display nested links",
+          "complexity": 0.4,
+          "number": 52191
+        }
+      ],
+      "rank": 39
+    },
+    {
+      "username": "nickbest-ph",
+      "avatar_url": "https://github.com/nickbest-ph.png",
+      "score": 22.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 20.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 5,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.8
+      },
+      "why": "Shipped 5 PRs with avg complexity 0.8, focused on backend and data model; with 1 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(django): personhog client migration for person reads",
+          "complexity": 1.4,
+          "number": 51549
+        },
+        {
+          "title": "chore(personhog): rm non-service protos from personhog client",
+          "complexity": 0.8,
+          "number": 52337
+        },
+        {
+          "title": "feat(settings): self-serve person last seen at opt in",
+          "complexity": 0.7,
+          "number": 52016
+        },
+        {
+          "title": "chore(personhog): allow configurable msg sizes",
+          "complexity": 0.6,
+          "number": 52363
+        },
+        {
+          "title": "fix(personhog_client): person team mismatch metric overcounting",
+          "complexity": 0.5,
+          "number": 52450
+        }
+      ],
+      "rank": 40
+    },
+    {
+      "username": "andehen",
+      "avatar_url": "https://github.com/andehen.png",
+      "score": 21.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 11.5,
+        "review_score": 10,
+        "issue_score": 0,
+        "pr_count": 3,
+        "review_count": 5,
+        "issue_count": 0,
+        "avg_complexity": 0.77
+      },
+      "why": "Shipped 3 PRs with avg complexity 0.8, focused on experiments and ingestion; with 5 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(experiments): add CUPED variance reduction to stats library",
+          "complexity": 1.3,
+          "number": 52255
+        },
+        {
+          "title": "feat(experiments): respect team flags_persistence_default when creating experiments",
+          "complexity": 0.6,
+          "number": 52126
+        },
+        {
+          "title": "fix(phrocs): reset stdin in pipe fallback to prevent fd 0 closure",
+          "complexity": 0.4,
+          "number": 52227
+        }
+      ],
+      "rank": 41
+    },
+    {
+      "username": "fasyy612",
+      "avatar_url": "https://github.com/fasyy612.png",
+      "score": 20.4,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 5.0,
+        "review_score": 12,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 6,
+        "issue_count": 0,
+        "avg_complexity": 0.5
+      },
+      "why": "Reviewed 6 PRs across the team, more than 2x their own PR output, primarily in session replay and frontend",
+      "top_prs": [
+        {
+          "title": "feat: updates to session ai summary UI",
+          "complexity": 0.6,
+          "number": 51925
+        },
+        {
+          "title": "fix(replay): fall back to unhashed js when hashed CDN asset is missing",
+          "complexity": 0.4,
+          "number": 52254
+        }
+      ],
+      "rank": 42
+    },
+    {
+      "username": "jonmcwest",
+      "avatar_url": "https://github.com/jonmcwest.png",
+      "score": 19.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 13.5,
+        "review_score": 6,
+        "issue_score": 0,
+        "pr_count": 3,
+        "review_count": 3,
+        "issue_count": 0,
+        "avg_complexity": 0.9
+      },
+      "why": "Shipped 3 PRs with avg complexity 0.9, focused on feature flags and API; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(logs): add inline notification destinations for log alerts",
+          "complexity": 1.3,
+          "number": 51470
+        },
+        {
+          "title": "feat(logs): track user actions for logs alerts and views",
+          "complexity": 0.8,
+          "number": 52250
+        },
+        {
+          "title": "feat(logs): add logs-saved-views feature flag and integrate into API and frontend",
+          "complexity": 0.6,
+          "number": 52232
+        }
+      ],
+      "rank": 43
+    },
+    {
+      "username": "patricio-posthog",
+      "avatar_url": "https://github.com/patricio-posthog.png",
+      "score": 19.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 11.5,
+        "review_score": 8,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 4,
+        "issue_count": 0,
+        "avg_complexity": 1.15
+      },
+      "why": "Shipped 2 PRs with avg complexity 1.1, focused on feature flags; with 4 code reviews",
+      "top_prs": [
+        {
+          "title": "chore(flags): migrate super_groups flags key (phase 2)",
+          "complexity": 1.2,
+          "number": 52319
+        },
+        {
+          "title": "chore(flags): migrate super_groups flags key (phase 1)",
+          "complexity": 1.1,
+          "number": 52157
+        }
+      ],
+      "rank": 44
+    },
+    {
+      "username": "joshsny",
+      "avatar_url": "https://github.com/joshsny.png",
+      "score": 19.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 17.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 4,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.85
+      },
+      "why": "Shipped 4 PRs with avg complexity 0.8, focused on onboarding and frontend; with 1 code reviews",
+      "top_prs": [
+        {
+          "title": "server glue code",
+          "complexity": 1.7,
+          "number": 52371
+        },
+        {
+          "title": "add mcp task tools",
+          "complexity": 1.3,
+          "number": 52397
+        },
+        {
+          "title": "chore(sandboxes): make setup guide clearer",
+          "complexity": 0.2,
+          "number": 52468
+        },
+        {
+          "title": "fix: pin litellm in gateway",
+          "complexity": 0.2,
+          "number": 52091
+        }
+      ],
+      "rank": 45
+    },
+    {
+      "username": "andrewm4894",
+      "avatar_url": "https://github.com/andrewm4894.png",
+      "score": 17.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 3.0,
+        "review_score": 4,
+        "issue_score": 10,
+        "pr_count": 2,
+        "review_count": 2,
+        "issue_count": 10,
+        "avg_complexity": 0.3
+      },
+      "why": "Resolved 10 issues, driving bug-fix and feature-delivery throughput; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(llma): fix trace-not-found when clicking view trace from sentiment tab",
+          "complexity": 0.4,
+          "number": 51962
+        },
+        {
+          "title": "chore(llma): pin pyod to exact version 2.0.7",
+          "complexity": 0.2,
+          "number": 52218
+        }
+      ],
+      "rank": 46
+    },
+    {
+      "username": "ordehi",
+      "avatar_url": "https://github.com/ordehi.png",
+      "score": 17.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 4.0,
+        "review_score": 0,
+        "issue_score": 13,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 13,
+        "avg_complexity": 0.8
+      },
+      "why": "Resolved 13 issues, driving bug-fix and feature-delivery throughput in experiments",
+      "top_prs": [
+        {
+          "title": "feat(experiments): Duplicate flow improved to use as template",
+          "complexity": 0.8,
+          "number": 52330
+        }
+      ],
+      "rank": 47
+    },
+    {
+      "username": "TueHaulund",
+      "avatar_url": "https://github.com/TueHaulund.png",
+      "score": 16.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 10.0,
+        "review_score": 6,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 3,
+        "issue_count": 0,
+        "avg_complexity": 1.0
+      },
+      "why": "Shipped 2 PRs with avg complexity 1.0, focused on session replay and API; with 3 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(replay): proxy recording-api requests through node to bypass browser security",
+          "complexity": 1.4,
+          "number": 52038
+        },
+        {
+          "title": "fix(replay): scope ClickHouse TLS skip to client only, revert CA cert approach",
+          "complexity": 0.6,
+          "number": 51888
+        }
+      ],
+      "rank": 48
+    },
+    {
+      "username": "estefaniarabadan",
+      "avatar_url": "https://github.com/estefaniarabadan.png",
+      "score": 16.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 4.0,
+        "review_score": 12,
+        "issue_score": 0,
+        "pr_count": 3,
+        "review_count": 6,
+        "issue_count": 0,
+        "avg_complexity": 0.27
+      },
+      "why": "Shipped 3 PRs with avg complexity 0.3, focused on pipeline; with 6 code reviews",
+      "top_prs": [
+        {
+          "title": "chore(ws): add source type to FF for pipelines V3",
+          "complexity": 0.4,
+          "number": 52111
+        },
+        {
+          "title": "chore(ws): remove traceback from warehouse sources load",
+          "complexity": 0.2,
+          "number": 52138
+        },
+        {
+          "title": "chore(ws): add traceback for warehouse-sources-load",
+          "complexity": 0.2,
+          "number": 52103
+        }
+      ],
+      "rank": 49
+    },
+    {
+      "username": "lricoy",
+      "avatar_url": "https://github.com/lricoy.png",
+      "score": 15.6,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 3.0,
+        "review_score": 10,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 5,
+        "issue_count": 0,
+        "avg_complexity": 0.6
+      },
+      "why": "Reviewed 5 PRs across the team, more than 2x their own PR output",
+      "top_prs": [
+        {
+          "title": "feat(web-analytics): expand AI bot user agent definitions",
+          "complexity": 0.6,
+          "number": 52201
+        }
+      ],
+      "rank": 50
+    },
+    {
+      "username": "Twixes",
+      "avatar_url": "https://github.com/Twixes.png",
+      "score": 15.0,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 4.5,
+        "review_score": 6,
+        "issue_score": 2,
+        "pr_count": 1,
+        "review_count": 3,
+        "issue_count": 2,
+        "avg_complexity": 0.9
+      },
+      "why": "Reviewed 3 PRs across the team, more than 2x their own PR output, primarily in frontend",
+      "top_prs": [
+        {
+          "title": "feat(inbox): Error tracking signal sources UI",
+          "complexity": 0.9,
+          "number": 51906
+        }
+      ],
+      "rank": 51
+    },
+    {
+      "username": "sakce",
+      "avatar_url": "https://github.com/sakce.png",
+      "score": 15.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 10.0,
+        "review_score": 2,
+        "issue_score": 3,
+        "pr_count": 5,
+        "review_count": 1,
+        "issue_count": 3,
+        "avg_complexity": 0.4
+      },
+      "why": "Resolved 3 issues, driving bug-fix and feature-delivery throughput in data model and API; with 1 code reviews",
+      "top_prs": [
+        {
+          "title": "chore: move hash_key_value to posthog/models/utils",
+          "complexity": 0.7,
+          "number": 51513
+        },
+        {
+          "title": "chore(endpoints): disallow short interval materialization sync",
+          "complexity": 0.6,
+          "number": 52478
+        },
+        {
+          "title": "chore(modeling): create missing model paths on SQs",
+          "complexity": 0.4,
+          "number": 51782
+        },
+        {
+          "title": "chore(phrocs): color value to shared palette constant",
+          "complexity": 0.2,
+          "number": 52489
+        },
+        {
+          "title": "chore(phrocs): slightly stronger border pls",
+          "complexity": 0.1,
+          "number": 52482
+        }
+      ],
+      "rank": 52
+    },
+    {
+      "username": "gesh",
+      "avatar_url": "https://github.com/gesh.png",
+      "score": 14.5,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 5.5,
+        "review_score": 4,
+        "issue_score": 5,
+        "pr_count": 1,
+        "review_count": 2,
+        "issue_count": 5,
+        "avg_complexity": 1.1
+      },
+      "why": "Resolved 5 issues, driving bug-fix and feature-delivery throughput in dashboards; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(insights): set insights saved property to true by default",
+          "complexity": 1.1,
+          "number": 52086
+        }
+      ],
+      "rank": 53
+    },
+    {
+      "username": "abheek9",
+      "avatar_url": "https://github.com/abheek9.png",
+      "score": 12.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 8,
+        "issue_score": 4,
+        "pr_count": 0,
+        "review_count": 4,
+        "issue_count": 4,
+        "avg_complexity": 0.0
+      },
+      "why": "Resolved 4 issues, driving bug-fix and feature-delivery throughput; with 4 code reviews",
+      "top_prs": [],
+      "rank": 54
+    },
+    {
+      "username": "fuziontech",
+      "avatar_url": "https://github.com/fuziontech.png",
+      "score": 12.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 1.0,
+        "review_score": 0,
+        "issue_score": 11,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 11,
+        "avg_complexity": 0.2
+      },
+      "why": "Resolved 11 issues, driving bug-fix and feature-delivery throughput",
+      "top_prs": [
+        {
+          "title": "fix(ducklake): upgrade duckdb to 1.5.1 and pin duckgres image for DuckLake 0.4",
+          "complexity": 0.2,
+          "number": 52490
+        }
+      ],
+      "rank": 55
+    },
+    {
+      "username": "jurajmajerik",
+      "avatar_url": "https://github.com/jurajmajerik.png",
+      "score": 12.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 6.0,
+        "review_score": 4,
+        "issue_score": 2,
+        "pr_count": 2,
+        "review_count": 2,
+        "issue_count": 2,
+        "avg_complexity": 0.6
+      },
+      "why": "Resolved 2 issues, driving bug-fix and feature-delivery throughput in experiments; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(experiments): throttle metric queries with rolling concurrency limit",
+          "complexity": 0.8,
+          "number": 52219
+        },
+        {
+          "title": "feat(experiments): add tooltips to data warehouse metric fields",
+          "complexity": 0.4,
+          "number": 52099
+        }
+      ],
+      "rank": 56
+    },
+    {
+      "username": "tatoalo",
+      "avatar_url": "https://github.com/tatoalo.png",
+      "score": 12.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 4.0,
+        "review_score": 8,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 4,
+        "issue_count": 0,
+        "avg_complexity": 0.4
+      },
+      "why": "Shipped 2 PRs with avg complexity 0.4; with 4 code reviews",
+      "top_prs": [
+        {
+          "title": "chore(cloud): git branches improvements",
+          "complexity": 0.5,
+          "number": 52071
+        },
+        {
+          "title": "chore(cloud): added tree_snapshot artifact type",
+          "complexity": 0.3,
+          "number": 52127
+        }
+      ],
+      "rank": 57
+    },
+    {
+      "username": "rodrigoi",
+      "avatar_url": "https://github.com/rodrigoi.png",
+      "score": 11.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 7.0,
+        "review_score": 4,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 2,
+        "issue_count": 0,
+        "avg_complexity": 0.7
+      },
+      "why": "Shipped 2 PRs with avg complexity 0.7, focused on experiments; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(experiments): disable precomputations for data warehouse metrics.",
+          "complexity": 0.8,
+          "number": 52121
+        },
+        {
+          "title": "fix(experiments): escape query for debug.",
+          "complexity": 0.6,
+          "number": 52277
+        }
+      ],
+      "rank": 58
+    },
+    {
+      "username": "marandaneto",
+      "avatar_url": "https://github.com/marandaneto.png",
+      "score": 10.8,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 1.0,
+        "review_score": 6,
+        "issue_score": 2,
+        "pr_count": 1,
+        "review_count": 3,
+        "issue_count": 2,
+        "avg_complexity": 0.2
+      },
+      "why": "Reviewed 3 PRs across the team, more than 2x their own PR output, primarily in onboarding",
+      "top_prs": [
+        {
+          "title": "docs: update Flutter error tracking onboarding for native iOS support",
+          "complexity": 0.2,
+          "number": 52393
+        }
+      ],
+      "rank": 59
+    },
+    {
+      "username": "andrewjmcgehee",
+      "avatar_url": "https://github.com/andrewjmcgehee.png",
+      "score": 10.5,
+      "persona_tag": "The Polymath",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 5.5,
+        "review_score": 4,
+        "issue_score": 1,
+        "pr_count": 2,
+        "review_count": 2,
+        "issue_count": 1,
+        "avg_complexity": 0.55
+      },
+      "why": "Balanced contributor across data model, reviews, and issue resolution; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "chore(modeling): rename warehouse saved queries tools to use simpler view-* naming",
+          "complexity": 0.7,
+          "number": 51489
+        },
+        {
+          "title": "fix(modeling): 15min schedules sync daily by mistake",
+          "complexity": 0.4,
+          "number": 52259
+        }
+      ],
+      "rank": 60
+    },
+    {
+      "username": "christiaan-ph",
+      "avatar_url": "https://github.com/christiaan-ph.png",
+      "score": 10.5,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 6.5,
+        "review_score": 0,
+        "issue_score": 4,
+        "pr_count": 2,
+        "review_count": 0,
+        "issue_count": 4,
+        "avg_complexity": 0.65
+      },
+      "why": "Resolved 4 issues, driving bug-fix and feature-delivery throughput in dashboards and API",
+      "top_prs": [
+        {
+          "title": "fix(data-warehouse): restore Z suffix for Klaviyo datetime",
+          "complexity": 0.8,
+          "number": 52243
+        },
+        {
+          "title": "fix(llma): avoid column name collisions with non-llm insights",
+          "complexity": 0.5,
+          "number": 51193
+        }
+      ],
+      "rank": 61
+    },
+    {
+      "username": "oliverb123",
+      "avatar_url": "https://github.com/oliverb123.png",
+      "score": 10.5,
+      "persona_tag": "The Architect",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 6.5,
+        "review_score": 4,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 2,
+        "issue_count": 0,
+        "avg_complexity": 1.3
+      },
+      "why": "Lead contributor to complex changes like \"feat(sig): error tracking as a source\"; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(sig): error tracking as a source",
+          "complexity": 1.3,
+          "number": 51645
+        }
+      ],
+      "rank": 62
+    },
+    {
+      "username": "luke-belton",
+      "avatar_url": "https://github.com/luke-belton.png",
+      "score": 10.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 2.0,
+        "review_score": 0,
+        "issue_score": 8,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 8,
+        "avg_complexity": 0.4
+      },
+      "why": "Resolved 8 issues, driving bug-fix and feature-delivery throughput",
+      "top_prs": [
+        {
+          "title": "fix: Add optional chaining for `sourceQuery.source`",
+          "complexity": 0.4,
+          "number": 52238
+        }
+      ],
+      "rank": 63
+    },
+    {
+      "username": "orian",
+      "avatar_url": "https://github.com/orian.png",
+      "score": 9.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 7.5,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.75
+      },
+      "why": "Shipped 2 PRs with avg complexity 0.8, focused on ingestion; with 1 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(clickhouse): self serving event delete",
+          "complexity": 0.9,
+          "number": 52249
+        },
+        {
+          "title": "chore(clickhouse): add tests for parquet bug ",
+          "complexity": 0.6,
+          "number": 52082
+        }
+      ],
+      "rank": 64
+    },
+    {
+      "username": "jordanm-posthog",
+      "avatar_url": "https://github.com/jordanm-posthog.png",
+      "score": 9.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 9.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 3,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.6
+      },
+      "why": "Shipped 3 PRs with avg complexity 0.6, focused on surveys and ingestion",
+      "top_prs": [
+        {
+          "title": "fix(web-analytics): Decrease live Web Analytics refresh",
+          "complexity": 0.9,
+          "number": 52207
+        },
+        {
+          "title": "fix(web-analytics): Reduce live dashboard lag under high event volume",
+          "complexity": 0.5,
+          "number": 52187
+        },
+        {
+          "title": "chore(web-analytics): Add alpha feedback banner to Live Web Analytics tab",
+          "complexity": 0.4,
+          "number": 52314
+        }
+      ],
+      "rank": 65
+    },
+    {
+      "username": "skoob13",
+      "avatar_url": "https://github.com/skoob13.png",
+      "score": 9.0,
+      "persona_tag": "The Guardian",
+      "leverage_multiplier": 1.2,
+      "breakdown": {
+        "pr_score": 1.5,
+        "review_score": 6,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 3,
+        "issue_count": 0,
+        "avg_complexity": 0.3
+      },
+      "why": "Reviewed 3 PRs across the team, more than 2x their own PR output",
+      "top_prs": [
+        {
+          "title": "chore(mcp): enable all mcp tools",
+          "complexity": 0.3,
+          "number": 52398
+        }
+      ],
+      "rank": 66
+    },
+    {
+      "username": "abhischekt",
+      "avatar_url": "https://github.com/abhischekt.png",
+      "score": 8.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 6.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 1.2
+      },
+      "why": "Shipped 1 PRs with avg complexity 1.2, focused on pipeline and billing; with 1 code reviews",
+      "top_prs": [
+        {
+          "title": "fix(billing): refactor customer archetype pipeline to graph_asset",
+          "complexity": 1.2,
+          "number": 52075
+        }
+      ],
+      "rank": 67
+    },
+    {
+      "username": "eli-r-ph",
+      "avatar_url": "https://github.com/eli-r-ph.png",
+      "score": 8.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 8,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 4,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 4 code reviews",
+      "top_prs": [],
+      "rank": 68
+    },
+    {
+      "username": "sortafreel",
+      "avatar_url": "https://github.com/sortafreel.png",
+      "score": 8.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 8,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 4,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 4 code reviews",
+      "top_prs": [],
+      "rank": 69
+    },
+    {
+      "username": "adboio",
+      "avatar_url": "https://github.com/adboio.png",
+      "score": 7.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 5,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 5,
+        "avg_complexity": 0.0
+      },
+      "why": "Resolved 5 issues, driving bug-fix and feature-delivery throughput; with 1 code reviews",
+      "top_prs": [],
+      "rank": 70
+    },
+    {
+      "username": "ksvat",
+      "avatar_url": "https://github.com/ksvat.png",
+      "score": 7.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 5.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 1.0
+      },
+      "why": "Shipped 1 PRs with avg complexity 1.0, focused on session replay; with 1 code reviews",
+      "top_prs": [
+        {
+          "title": "feat(replay): add triggers v2 to config",
+          "complexity": 1.0,
+          "number": 51508
+        }
+      ],
+      "rank": 71
+    },
+    {
+      "username": "sarahxsanders",
+      "avatar_url": "https://github.com/sarahxsanders.png",
+      "score": 6.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 6.5,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.65
+      },
+      "why": "Shipped 2 PRs with avg complexity 0.7, focused on onboarding and SDKs",
+      "top_prs": [
+        {
+          "title": "feat(onboarding): react router onboarding sdk",
+          "complexity": 1.1,
+          "number": 52144
+        },
+        {
+          "title": "chore: update api key mentions",
+          "complexity": 0.2,
+          "number": 51917
+        }
+      ],
+      "rank": 72
+    },
+    {
+      "username": "gewenyu99",
+      "avatar_url": "https://github.com/gewenyu99.png",
+      "score": 6.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 6.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 2,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.6
+      },
+      "why": "Shipped 2 PRs with avg complexity 0.6",
+      "top_prs": [
+        {
+          "title": "fix: unbreak onboaridng",
+          "complexity": 0.6,
+          "number": 52280
+        },
+        {
+          "title": "fix: use JSSnippet to allow auto population of proxy domain",
+          "complexity": 0.6,
+          "number": 50913
+        }
+      ],
+      "rank": 73
+    },
+    {
+      "username": "lmenezes",
+      "avatar_url": "https://github.com/lmenezes.png",
+      "score": 6.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 6,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 3,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 3 code reviews",
+      "top_prs": [],
+      "rank": 74
+    },
+    {
+      "username": "z0br0wn",
+      "avatar_url": "https://github.com/z0br0wn.png",
+      "score": 5.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 1.5,
+        "review_score": 4,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 2,
+        "issue_count": 0,
+        "avg_complexity": 0.3
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.3, focused on ingestion; with 2 code reviews",
+      "top_prs": [
+        {
+          "title": "chore(ingestion): add wrap batch step for metrics",
+          "complexity": 0.3,
+          "number": 52171
+        }
+      ],
+      "rank": 75
+    },
+    {
+      "username": "edwinyjlim",
+      "avatar_url": "https://github.com/edwinyjlim.png",
+      "score": 4.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 4.5,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.9
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.9, focused on auth",
+      "top_prs": [
+        {
+          "title": "chore: update authz screen",
+          "complexity": 0.9,
+          "number": 50918
+        }
+      ],
+      "rank": 76
+    },
+    {
+      "username": "feliperalmeida",
+      "avatar_url": "https://github.com/feliperalmeida.png",
+      "score": 4.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 4.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.8
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.8, focused on auth",
+      "top_prs": [
+        {
+          "title": "fix(rbac): enforce object-level permissions on detail actions",
+          "complexity": 0.8,
+          "number": 50254
+        }
+      ],
+      "rank": 77
+    },
+    {
+      "username": "jabahamondes",
+      "avatar_url": "https://github.com/jabahamondes.png",
+      "score": 4.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 4.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.8
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.8",
+      "top_prs": [
+        {
+          "title": "fix: defer marketing analytics column config changes until Apply",
+          "complexity": 0.8,
+          "number": 51300
+        }
+      ],
+      "rank": 78
+    },
+    {
+      "username": "matt-metivier",
+      "avatar_url": "https://github.com/matt-metivier.png",
+      "score": 4.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 4,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 2,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 2 code reviews",
+      "top_prs": [],
+      "rank": 79
+    },
+    {
+      "username": "pawel-cebula",
+      "avatar_url": "https://github.com/pawel-cebula.png",
+      "score": 4.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 4,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 2,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 2 code reviews",
+      "top_prs": [],
+      "rank": 80
+    },
+    {
+      "username": "rorylshanks",
+      "avatar_url": "https://github.com/rorylshanks.png",
+      "score": 4.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 4,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 2,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 2 code reviews",
+      "top_prs": [],
+      "rank": 81
+    },
+    {
+      "username": "jonathanlab",
+      "avatar_url": "https://github.com/jonathanlab.png",
+      "score": 3.0,
+      "persona_tag": "The Closer",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 1,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 1,
+        "avg_complexity": 0.0
+      },
+      "why": "Resolved 1 issues, driving bug-fix and feature-delivery throughput; with 1 code reviews",
+      "top_prs": [],
+      "rank": 82
+    },
+    {
+      "username": "nicowaltz",
+      "avatar_url": "https://github.com/nicowaltz.png",
+      "score": 3.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 3.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.6
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.6",
+      "top_prs": [
+        {
+          "title": "test(sig): Add error tracking as a source to e2e eval",
+          "complexity": 0.6,
+          "number": 51769
+        }
+      ],
+      "rank": 83
+    },
+    {
+      "username": "a-lider",
+      "avatar_url": "https://github.com/a-lider.png",
+      "score": 2.5,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 2.5,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.5
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.5, focused on auth",
+      "top_prs": [
+        {
+          "title": "fix(auth): handle SAML login error when SSO is not configured for user",
+          "complexity": 0.5,
+          "number": 51770
+        }
+      ],
+      "rank": 84
+    },
+    {
+      "username": "MichaelKutsch-ph",
+      "avatar_url": "https://github.com/MichaelKutsch-ph.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 85
+    },
+    {
+      "username": "Radu-Raicea",
+      "avatar_url": "https://github.com/Radu-Raicea.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 86
+    },
+    {
+      "username": "aspicer",
+      "avatar_url": "https://github.com/aspicer.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 87
+    },
+    {
+      "username": "benben",
+      "avatar_url": "https://github.com/benben.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 88
+    },
+    {
+      "username": "ioannisj",
+      "avatar_url": "https://github.com/ioannisj.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 89
+    },
+    {
+      "username": "lucasheriques",
+      "avatar_url": "https://github.com/lucasheriques.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 90
+    },
+    {
+      "username": "sipa-echo-zaoa",
+      "avatar_url": "https://github.com/sipa-echo-zaoa.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 2.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.4
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.4",
+      "top_prs": [
+        {
+          "title": "fix: Fix GitLab error tracking destination JSON headers and description field",
+          "complexity": 0.4,
+          "number": 51891
+        }
+      ],
+      "rank": 91
+    },
+    {
+      "username": "willwearing",
+      "avatar_url": "https://github.com/willwearing.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 0.0,
+        "review_score": 2,
+        "issue_score": 0,
+        "pr_count": 0,
+        "review_count": 1,
+        "issue_count": 0,
+        "avg_complexity": 0.0
+      },
+      "why": "Shipped 0 PRs with avg complexity 0.0; with 1 code reviews",
+      "top_prs": [],
+      "rank": 92
+    },
+    {
+      "username": "zaniluca",
+      "avatar_url": "https://github.com/zaniluca.png",
+      "score": 2.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 2.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.4
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.4",
+      "top_prs": [
+        {
+          "title": "fix(logs): display empty string for empty attribute values",
+          "complexity": 0.4,
+          "number": 52012
+        }
+      ],
+      "rank": 93
+    },
+    {
+      "username": "Copilot",
+      "avatar_url": "https://github.com/Copilot.png",
+      "score": 1.0,
+      "persona_tag": "The Machine",
+      "leverage_multiplier": 1.0,
+      "breakdown": {
+        "pr_score": 1.0,
+        "review_score": 0,
+        "issue_score": 0,
+        "pr_count": 1,
+        "review_count": 0,
+        "issue_count": 0,
+        "avg_complexity": 0.2
+      },
+      "why": "Shipped 1 PRs with avg complexity 0.2",
+      "top_prs": [
+        {
+          "title": "fix: move AI assistants section to correct position in developing-locally.md",
+          "complexity": 0.2,
+          "number": 52116
+        }
+      ],
+      "rank": 94
+    }
+  ]
+}
